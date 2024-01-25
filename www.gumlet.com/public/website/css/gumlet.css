@@ -1,0 +1,328 @@
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 5px;
+    /* Specified height */
+    background: #dcdaed;
+    /* Grey background */
+    border-radius: 5px;
+    outline: none;
+    /* Remove outline */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    /* Set a specific slider handle width */
+    height: 20px;
+    /* Slider handle height */
+    background: #6658ea;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    /* Set a specific slider handle width */
+    height: 20px;
+    /* Slider handle height */
+    border-radius: 50%;
+    background: #6658ea;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.radioLabel {
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.turbo-progress-bar {
+    height: 4px;
+    background-color: #6658ea;
+}
+
+.table>:not(caption)>*>* {
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.bg-primary-soft {
+    background-color: #efeefd !important
+}
+
+.bg-danger-soft {
+    background-color: #ffefee !important
+}
+
+.bg-success-soft {
+    background-color: #edfaf6 !important
+}
+
+.bg-secondary-soft {
+    background-color: #eeeef1 !important
+}
+
+.bg-dark-soft {
+    background-color: #e8e7eb !important
+}
+
+
+.bg-info-soft {
+    background-color: #ebf9fd !important
+}
+
+.bg-warning-soft {
+    background-color: #fffaf4 !important
+}
+
+.small-desc {
+    font-size: 1rem
+}
+
+.btn {
+    border-radius: .3rem .3rem .3rem .3rem;
+}
+
+footer {
+    font-size: 0.95rem;
+}
+
+.nav-link {
+    font-size: 0.95rem;
+}
+
+.navbar {
+    padding: 1.2rem 1rem;
+}
+
+.navbar-nav .nav-item .dropdown-menu a.d-flex {
+    padding: 5px 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-out;
+}
+
+.navbar-nav .nav-item .dropdown-menu a.d-flex:hover {
+    background-color: #ecf0fe;
+}
+
+.table th {
+    align-items: center;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.08;
+}
+
+
+.bg-gray-700 {
+    background-color: #cccccf !important
+}
+
+.bg-gray-600 {
+    background-color: #d8d8d8 !important
+}
+
+
+.fs-3 {
+    font-size: 1.25rem !important;
+}
+
+.fs-2 {
+    font-size: 1.75rem !important;
+}
+
+.ms-5 {
+    margin-left: 1.5rem !important;
+}
+
+.fs-lg {
+    font-size: 1.15rem !important;
+}
+
+.fs-sm {
+    font-size: 1rem !important;
+}
+
+
+.fw-bold {
+    font-weight: 500 !important;
+}
+
+.ms-4 {
+    margin-left: 1rem !important;
+}
+
+.left-0 {
+    left: 0 !important;
+}
+
+.bottom-0 {
+    bottom: 0 !important;
+}
+
+
+.min-vh-35 {
+    min-height: 30vh !important;
+}
+
+.right-0 {
+    right: 0 !important;
+}
+
+
+@media (min-width: 1200px) {
+    .mw-xl-75 {
+        max-width: 75% !important
+    }
+}
+
+
+@media (min-width: 768px) {
+    .w-md-80 {
+        width: 80% !important;
+    }
+
+    .w-md-85 {
+        width: 85% !important;
+    }
+
+    .top-pading {
+        margin-top: 4.3rem !important
+    }
+}
+
+
+@media (min-width: 768px) {
+    .border-end-md {
+        border-right: 1px solid #eaf2fe !important;
+    }
+
+
+    h3.text-uppercase {
+        font-family: var(--bs-body-font-family);
+        font-weight: 700;
+        letter-spacing: .18em;
+    }
+
+    .mw-80 {
+        max-width: 80% !important;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .display-5 {
+        font-size: 1.2rem;
+    }
+
+    .display-4 {
+        font-size: 1.55rem;
+    }
+}
+
+
+
+.display-4 {
+    font-weight: 500;
+    line-height: 1.08
+}
+
+.display-4 {
+    font-size: 2rem
+}
+
+@media (max-width:767.98px) {
+
+    .h1,
+    h1 {
+        font-size: 1.75rem
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.5rem
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.125rem
+    }
+
+    .display-4 {
+        font-size: 2.115rem
+    }
+
+    .display-3 {
+        font-size: 2.5rem
+    }
+
+    .display-1,
+    .display-2 {
+        font-size: 3rem
+    }
+
+    .lead {
+        font-size: 1.25rem
+    }
+}
+
+
+
+/* font CSS */
+
+  /* latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-display: optional;
+    font-weight: 400;
+    src: url(https://www.gumlet.com/public/website/fonts/inter-font-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-display: optional;
+    font-weight: 500;
+    src: url(https://www.gumlet.com/public/website/fonts/inter-font-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /* latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-display: optional;
+    font-weight: 700;
+    src: url(https://www.gumlet.com/public/website/fonts/inter-font-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }

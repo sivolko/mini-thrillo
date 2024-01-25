@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.thrillophilia.com	TRUE	/	FALSE	1999999999	thrill_referrer	eyJfcmFpbHMiOnsibWVzc2FnZSI6IkludGNJbkpsWm1WeWNtVnlYQ0k2WENKdWIyNWxYQ0o5SWc9PSIsImV4cCI6IjIwMjQtMDItMDFUMDQ6MzI6MTUuNjQzWiIsInB1ciI6bnVsbH19--2e96898749041d7bc925b14f46e67151ab6b50ea
+www.thrillophilia.com	TRUE	/	FALSE	1999999999	preferred_currency	INR
+www.thrillophilia.com	TRUE	/	FALSE	1999999999	country_iso_code	IN
+
